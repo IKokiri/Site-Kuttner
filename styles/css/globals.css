@@ -841,7 +841,7 @@ img {
     bottom: -1px;
     height: 1px;
     width: 100%;
-    background-color: #0894d5;
+    background-color: #FFF;
     z-index: 1;
     content: "";
     -webkit-transition: -webkit-transform 0.4s ease;
@@ -871,7 +871,7 @@ img {
 .main-menu .navigation>li.current>a,
 .main-menu .navigation>li.current-menu-item>a {
     opacity: 1;
-    color: #0894d5;
+    color: #FFF;
 }
 
 .main-menu .navigation>li:hover>a:after {
@@ -3297,7 +3297,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/icons/bg.jpg);
     padding: 100px 0;
 }
 
@@ -8907,8 +8906,8 @@ a.ui-button:active,
 
 .main-footer {
     position: relative;
-    background-color: #181818;
-    color: #888888;
+    background-color: #0894d5;
+    color: #FFF;
 }
 
 .main-footer .widgets-section {
@@ -8949,7 +8948,7 @@ a.ui-button:active,
     display: block;
     font-size: 24px;
     line-height: 1.2em;
-    color: #ffffff;
+    color: #FFF;
     font-weight: 700;
 }
 
@@ -8959,7 +8958,7 @@ a.ui-button:active,
 }
 
 .main-footer .subscribe-widget h4 {
-    color: #FFFFFF;
+    color: #000;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 14px;
@@ -9158,7 +9157,7 @@ a.ui-button:active,
     border-top: 2px solid #0894d5;
     position: relative;
     padding: 25px 40px;
-    background-color: #232323;
+    background-color: #FFF;
 }
 
 .contact-info-box {
@@ -9302,19 +9301,19 @@ a.ui-button:active,
 }
 
 .contact-widget .single-contact-widget .text-box h3 {
-    color: #fff;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
 }
 
 .contact-widget .single-contact-widget .text-box p {
-    color: #999999;
+    color: #000;
     font-size: 16px;
     line-height: 24px;
 }
 
 .contact-widget .single-contact-widget .text-box span {
-    color: #FFFFFF;
+    color: #000;
     font-size: 20px;
     font-weight: 500;
     display: block;
@@ -11369,7 +11368,7 @@ a.ui-button:active,
     border: 1px solid #efefef;
     background-position: right top;
     background-repeat: no-repeat;
-    /* background-image: url(../images/icons/arrow-right.jpg); */
+    background-image: url(../images/icons/arrow-right.jpg);
 }
 
 .shipping-form .form-group .ui-button .ui-icon {

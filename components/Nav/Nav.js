@@ -16,12 +16,15 @@ function Nav({ Component, pageProps }) {
         .main-menu .navigation>li>a:before {
         background-color: #FFF;
         }
-        
+
         .menutopo{
-            color:#FFF
+            color:#FFF !important;
         }
         
-        
+        .main-menu .navigation>li>a:before{
+            background-color:'#FFF' !important;
+        }
+
         .main-menu .navigation>li:hover>a, .main-menu .navigation>li.current>a, .main-menu .navigation>li.current-menu-item>a {
         
         color: #FFF;
@@ -43,11 +46,14 @@ function Nav({ Component, pageProps }) {
                                 <ul className="navigation clearfix">
                                     {
                                         menu.map((link) => {
-                                            return <li key={link.titulo} className={link.classe}><Link href={link.local}>{link.titulo}</Link>
+                                            return <li key={link.titulo} className={link.classe}>
+                                                <Link href={link.local}>{link.titulo}</Link>
                                                 <ul>
                                                     {
                                                         link.submenu != undefined ? (link.submenu.map((sub) => {
-                                                            return <li key={sub.titulo} className="sublink"><Link href={sub.local}>{sub.titulo}</Link></li>
+                                                            return <li key={sub.titulo} className="sublink">
+                                                                <Link href={sub.local}>{sub.titulo}</Link>
+                                                                </li>
                                                         })) : null
                                                     }
                                                 </ul>
@@ -79,11 +85,14 @@ function Nav({ Component, pageProps }) {
                                 <ul className="navigation clearfix">
                                     {
                                         menu.map((link) => {
-                                            return <li key={link.titulo} className={link.classe}><Link href={link.local}>{link.titulo}</Link>
+                                            return <li key={link.titulo} className={link.classe}>
+                                                <Link href={link.local}>{link.titulo}</Link>
                                                 <ul>
                                                     {
                                                         link.submenu != undefined ? (link.submenu.map((sub) => {
-                                                            return <li key={sub.titulo} className="sublink"><Link href={sub.local}>{sub.titulo}</Link></li>
+                                                            return <li key={sub.titulo} className="sublink">
+                                                                <Link href={sub.local}>{sub.titulo}</Link>
+                                                                </li>
                                                         })) : null
                                                     }
                                                 </ul>

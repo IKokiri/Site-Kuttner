@@ -6,7 +6,7 @@ export const menu = [
     },
     {
         "titulo": "Sobre Nós",
-        "local": "",
+        "local": "/",
         "classe": "dropdown menutopo",
         "submenu": [
             {
@@ -49,7 +49,7 @@ export const menu = [
     },
     {
         "titulo": "Tecnologias",
-        "local": "/tecnologia",
+        "local": "/tecnologias",
         "classe": "menutopo"
     },
     {

@@ -1,12 +1,7 @@
 function Company({ Component, pageProps }) {
 
     return (
-        <><style jsx>{`
-        .bgwhite {
-            background-image: url(../images/icons/bgwhite.jpg);
-        
-        }
-        
+        <><style jsx>{`        
         .tc1 {
             color: white !important; 
         }
@@ -15,12 +10,8 @@ function Company({ Component, pageProps }) {
             color: #0894d5 !important; Company
         }
         
-        .bgblue {
-            background-image: url(../images/icons/bgblue.jpg);
-        
-        }
       `}</style>
-            <section className="what-we-do" style={{backgroundColor:'blue'}}>
+            <section className="what-we-do" style={{backgroundColor:'#0894d5'}}>
                 <div className="auto-container">
                     <div className="row clearfix">
                         <div className="content-column col-md-6 col-sm-12 col-xs-12">
@@ -48,7 +39,7 @@ function Company({ Component, pageProps }) {
                     </div>
             
             </section>
-                <section className="what-we-do bgwhite">
+                <section className="what-we-do">
                     <div className="auto-container">
                         <div className="row clearfix">
                             <div className="video-column col-md-6 col-sm-12 col-xs-12">

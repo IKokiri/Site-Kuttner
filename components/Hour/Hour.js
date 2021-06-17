@@ -1,5 +1,6 @@
 
 import Nav from '../Nav/Nav';
+import Link from 'next/link'
 
 function Hour({ Component, pageProps }) {
     return (
@@ -29,7 +30,7 @@ function Hour({ Component, pageProps }) {
                         <div className="clearfix">
 
                             <div className="pull-left logo-outer">
-                                <div className="logo"><a href="index.php"><img src="./imgs/logo/logo.png" alt="" title="" /></a></div>
+                                <div className="logo"><Link href="/"><img src="./imgs/logo/logo.png" alt="" title="" /></Link></div>
                             </div>
 
                             <div className="pull-right upper-right clearfix">
