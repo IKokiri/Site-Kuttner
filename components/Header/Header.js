@@ -2,7 +2,7 @@
 import Nav from '../Nav/Nav';
 import Link from 'next/link'
 
-function Hour({ Component, pageProps }) {
+function Header({ Component, pageProps }) {
     return (
         <>
             <header className="main-header style-two">
@@ -68,5 +68,5 @@ function Hour({ Component, pageProps }) {
     )
 }
 
-export default Hour
+export default Header
 
