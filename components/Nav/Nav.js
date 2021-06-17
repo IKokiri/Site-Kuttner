@@ -1,4 +1,4 @@
-import {menu} from './menu'
+import {menu} from '../../pages/api/menu'
 import Link from 'next/link'
 
 function Nav({ Component, pageProps }) {
