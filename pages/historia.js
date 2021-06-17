@@ -1,8 +1,14 @@
+import Header from '../components/Header/Header'
+import Bootom from '../components/Bootom/Bootom';
+import Timeline from '../components/Timeline/Timeline'
+
 function Historia({ Component, pageProps }) {
 
     return (
         <>
-            Historia
+            <Header/>
+            <Timeline/>
+            <Bootom/>
         </>
     )
 }
