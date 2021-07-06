@@ -36,7 +36,7 @@ export const menu = [
             },
             {
                 "titulo": "Certificado",
-                "local": "/certificado",
+                "local": "/docs/iso/iso.pdf",
                 "classe": "sublink"
             },
             {

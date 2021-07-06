@@ -61,9 +61,9 @@ function Header({ Component, pageProps }) {
                             </div>
                         </div>
                     </div>
-                </div>
-                <Nav/>
+                </div>            
             </header>
+             <Nav/>    
         </>
     )
 }

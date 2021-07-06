@@ -1,11 +1,17 @@
-function Catalogos({ Component, pageProps }) {
+import Header from '../components/Header/Header'
+import Bootom from '../components/Bootom/Bootom'
+import Catalogos from '../components/Catalogos/Catalogos'
+function catalogos({ Component, pageProps }) {
 
     return (
         <>
-            Catalogos
+            <Header/>
+
+        <Catalogos/>
+            <Bootom/>
         </>
     )
 }
 
-export default Catalogos
+export default catalogos
 
