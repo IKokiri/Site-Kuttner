@@ -29,39 +29,39 @@ function Company({ Component, pageProps }) {
                     </div>
 
                     conteudo = c.posicao ? imagem : texto
-                    return conteudo
+                    return <h1>Essa seção do site está em manutenção. As outras páginas estão disponíveis.</h1>
                     return <section className="about-style-one">
-                    <div className="auto-container">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <div className="image-box">
-                                    <img src="images/resource/about-1-1.jpg" alt="Awesome Image" />
+                        <div className="auto-container">
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <div className="image-box">
+                                        <img src="images/resource/about-1-1.jpg" alt="Awesome Image" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="sec-title">
-                                    <h4>Company</h4>
-                                    <h2>About Our Company</h2>
-                                </div>
-                                <div className="content-box">
-                                    <h3>Our Mission</h3>
-                                    <p>Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
-                                        and we will give you a complete account of the system, and expound the actual teachings.</p>
-                                    <h3>Our Vision</h3>
-                                    <ul className="list-items">
-                                        <li><i className="machinery-icon-favorites-button"></i> Desires to obtain pain of itself expound
-                                        </li>
-                                        <li><i className="machinery-icon-favorites-button"></i> Take a trivial example, which of us
-                                            undertakes works</li>
-                                        <li><i className="machinery-icon-favorites-button"></i> Chooses to enjoy a pleasure annoying results
-                                        </li>
-                                    </ul>
-                                    <a href="#" className="more-btn"><i className="machinery-icon-next"></i>More About Us</a>
+                                <div className="col-md-6">
+                                    <div className="sec-title">
+                                        <h4>Company</h4>
+                                        <h2>About Our Company</h2>
+                                    </div>
+                                    <div className="content-box">
+                                        <h3>Our Mission</h3>
+                                        <p>Must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                                            and we will give you a complete account of the system, and expound the actual teachings.</p>
+                                        <h3>Our Vision</h3>
+                                        <ul className="list-items">
+                                            <li><i className="machinery-icon-favorites-button"></i> Desires to obtain pain of itself expound
+                                            </li>
+                                            <li><i className="machinery-icon-favorites-button"></i> Take a trivial example, which of us
+                                                undertakes works</li>
+                                            <li><i className="machinery-icon-favorites-button"></i> Chooses to enjoy a pleasure annoying results
+                                            </li>
+                                        </ul>
+                                        <a href="#" className="more-btn"><i className="machinery-icon-next"></i>More About Us</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
                 })
             }
 
