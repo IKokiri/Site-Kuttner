@@ -45,7 +45,7 @@ export const catalogos = [
         "classe":"mineracao",
         "imagem":"imgs/catalogos/catalogo.png",
         "arquivo":"docs/catalogos/ccc.pdf",
-        "titulo":"xxx",
+        "titulo":"",
         "tag":"Mineração",
     },
     {

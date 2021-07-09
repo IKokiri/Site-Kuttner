@@ -678,6 +678,7 @@ img {
     position: relative;
     display: inline-block;
     max-width: 100%;
+    width:350px;
 }
 
 .main-header .header-upper .upper-right {
@@ -759,6 +760,7 @@ img {
     font-size: 14px;
     text-align: center;
     line-height: 40px;
+    text-decoration:none;
 }
 
 .main-header.style-two .info-box .social-icons a:hover {
@@ -819,6 +821,7 @@ img {
 }
 
 .main-menu .navigation>li>a {
+    text-decoration:none;
     position: relative;
     display: block;
     font-size: 16px;
@@ -871,7 +874,7 @@ img {
 .main-menu .navigation>li.current>a,
 .main-menu .navigation>li.current-menu-item>a {
     opacity: 1;
-    color: #FFF;
+    color: #ccc;
 }
 
 .main-menu .navigation>li:hover>a:after {
@@ -940,13 +943,14 @@ img {
 }
 
 .main-menu .navigation>li>ul>li>a {
+    text-decoration:none;
     position: relative;
     display: block;
     font-size: 16px;
     line-height: 24px;
     padding: 5px 0;
     font-weight: 500;
-    color: #303030;
+    color: #0894d5;
     text-align: left;
     background-color: #ffffff;
     text-transform: capitalize;
@@ -959,7 +963,7 @@ img {
 
 .main-menu .navigation>li>ul>li:hover>a {
     padding-left: 30px;
-    background: #0894d5;
+    background: #FFF;
 }
 
 .main-menu .navigation>li>ul>li:before {
@@ -967,7 +971,7 @@ img {
     left: 10px;
     top: 13px;
     font-size: 14px;
-    color: #303030;
+    color: #0894d5;
     line-height: 24px;
     font-family: 'FontAwesome';
     content: "\f178";
@@ -1217,8 +1221,8 @@ img {
     border-bottom: 0;
 }
 
-.main-header.style-two .header-lower {
-    background: #181818;
+.header-lower {
+    background: #0894d5;
 }
 
 .main-header.style-two .outer-box .link-box {

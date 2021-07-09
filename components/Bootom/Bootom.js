@@ -12,7 +12,7 @@ function Bootom({ Component, pageProps }) {
                                 <div className="footer-widget contact-widget">
                                     <div className="single-contact-widget">
                                         <div className="text-box">
-                                            <img src="imgs/logo/logo.png" alt="" title="" /><br />&nbsp; <br />&nbsp;
+                                            <img src="imgs/logo/logo.png" alt="" title="" /><br />&nbsp;
                                         </div>
                                     </div>
                                     <div className="single-contact-widget">
@@ -22,7 +22,13 @@ function Bootom({ Component, pageProps }) {
                                     </div>
                                     <div className="single-contact-widget">
                                         <div className="text-box">
-                                            <span href="/" data-toggle="modal" className="cliq" data-target="#exampleModal" style={{ cursor: 'pointer' }}> Clique aqui.</span>
+                                            <span data-toggle="modal" className="cliq" data-target="#exampleModal" style={{ cursor: 'pointer' }}>
+                                                {
+                                                    <Link href='/contato'>
+                                                        Clique aqui.
+                                                    </Link>
+                                                }
+                                            </span>
 
 
                                         </div>
@@ -31,7 +37,6 @@ function Bootom({ Component, pageProps }) {
                             </div>
                             <div className="footer-column col-md-4 col-sm-6 col-xs-12">
                                 <div className="footer-widget links-widget">
-                                    <div className="widget-title"><h2>Atalhos</h2></div>
                                     <div className="widget-content">
                                         <ul className="list clearfix">
                                             {
@@ -55,8 +60,9 @@ function Bootom({ Component, pageProps }) {
                                         </div>
                                         <div className="text-box">
                                             <h3>Contato:</h3>
-                                            <span>+55 31 3399-7200</span>
-                                            <p style={{ color: "#444 !important" }}>08:00 - 18:00</p>
+                                            <span>
+                                                <a href="tel:+553133997200">+55 31 3399-7200</a>
+                                            </span>
                                         </div>
                                     </div>
                                     <div className="single-contact-widget">
@@ -64,7 +70,12 @@ function Bootom({ Component, pageProps }) {
                                             <i className="machinery-icon-map"></i>
                                         </div>
                                         <div className="text-box">
-                                            <p style={{ color: "#444 !important" }}>R. Santiago Balesteiros, 610<br />Cinco - Contagem, MG.</p>
+                                            <p style={{ color: "#444 !important" }}>
+                                                <a target="_blank" href="https://goo.gl/maps/tKqav5U2vfomvGTv8">
+                                                    R. Santiago Ballesteros, 610<br />Cinco - Contagem, MG.
+                                                </a>
+                                                <br />
+                                            </p>
                                         </div>
                                     </div>
                                     <div className="single-contact-widget">
@@ -72,8 +83,9 @@ function Bootom({ Component, pageProps }) {
                                             <i className="machinery-icon-send"></i>
                                         </div>
                                         <div className="text-box">
-                                            <h3>E-Mail</h3>
-                                            <p style={{ color: "#444 !important" }}>kuttner@kuttner.com.br</p>
+                                            <p style={{ color: "#444 !important" }}>
+                                                <a href='mailto:kuttner@kuttner.com.br'>kuttner@kuttner.com.br</a>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

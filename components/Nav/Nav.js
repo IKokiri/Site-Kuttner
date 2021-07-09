@@ -1,35 +1,10 @@
-import {menu} from '../../pages/api/menu'
+import { menu } from '../../pages/api/menu'
 import Link from 'next/link'
 
 function Nav({ Component, pageProps }) {
 
     return (
-        <><style jsx>{`
-        .sublink{
-            color:#444 !important
-        }
-            
-        .header-lower{
-            background: #0894d5 !important;
-        }
-        
-        .main-menu .navigation>li>a:before {
-        background-color: #FFF;
-        }
-
-        .menutopo{
-            color:#FFF !important;
-        }
-        
-        .main-menu .navigation>li>a:before{
-            background-color:'#FFF' !important;
-        }
-
-        .main-menu .navigation>li:hover>a, .main-menu .navigation>li.current>a, .main-menu .navigation>li.current-menu-item>a {
-        
-        color: #FFF;
-        }
-      `}</style>
+        <>
             <div className="header-lower" >
                 <div className="auto-container">
                     <div className="nav-outer clearfix">
@@ -53,7 +28,7 @@ function Nav({ Component, pageProps }) {
                                                         link.submenu != undefined ? (link.submenu.map((sub) => {
                                                             return <li key={sub.titulo} className="sublink">
                                                                 <Link href={sub.local}>{sub.titulo}</Link>
-                                                                </li>
+                                                            </li>
                                                         })) : null
                                                     }
                                                 </ul>
@@ -92,7 +67,7 @@ function Nav({ Component, pageProps }) {
                                                         link.submenu != undefined ? (link.submenu.map((sub) => {
                                                             return <li key={sub.titulo} className="sublink">
                                                                 <Link href={sub.local}>{sub.titulo}</Link>
-                                                                </li>
+                                                            </li>
                                                         })) : null
                                                     }
                                                 </ul>

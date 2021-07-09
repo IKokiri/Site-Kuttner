@@ -7,8 +7,8 @@ function Trabalhos({ Component, pageProps }) {
       }
       `}
     </style>
-      <div class="container">
-        <section className="projects-section-two">
+      <section className="container">
+        <div className="projects-section-two">
           <div className="auto-container">
             <div className="mixitup-gallery">
               <div className="inner-container clearfix">
@@ -19,8 +19,8 @@ function Trabalhos({ Component, pageProps }) {
                 </div>
               </div>
               {
-                trabalhos.map((t) => {
-                  return <div className="project-block-one mix all power col-md-4 col-sm-4 col-xs-12">
+                trabalhos.map((t, i) => {
+                  return <div className="project-block-one mix all power col-md-4 col-sm-6 col-xs-12">
                     <div className="image-box">
                       <a href={t.arquivo} target="_blank">
                         <img src={t.imagem} alt={t.titulo} style={{ cursor: "pointer" }} />
@@ -29,15 +29,15 @@ function Trabalhos({ Component, pageProps }) {
                       </div>
                     </div>
                     <div className="content-box">
-                      <h4><span>{t.titulo.length > 20 ? t.titulo.substr(0, 20) + "..." : t.titulo}</span></h4>
+                      <h4 style={{ height: "60px" }}><span>{t.titulo.toUpperCase()}</span></h4>
                     </div>
                   </div>
                 })
               }
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
 
     </>
   )
