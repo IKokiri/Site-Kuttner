@@ -29,7 +29,7 @@ function Company({ Component, pageProps }) {
                     </div>
 
                     conteudo = c.posicao ? imagem : texto
-
+                    return conteudo
                     return <section className="about-style-one">
                     <div className="auto-container">
                         <div className="row">
