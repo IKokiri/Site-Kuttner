@@ -5,7 +5,7 @@ function Nav({ Component, pageProps }) {
 
     return (
         <>
-            <div className="header-lower" >
+            <div className="header-lower">
                 <div className="auto-container">
                     <div className="nav-outer clearfix">
                         <nav className="main-menu">

@@ -27,6 +27,7 @@ function Company({ Component, pageProps }) {
                     </div>
 
 
+
                     return <section style={{ backgroundColor: c.cor }} className="about-style-one">
                         <div className="auto-container">
                             <div className="row">

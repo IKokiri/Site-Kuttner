@@ -24,23 +24,9 @@ function Banner({ Component, pageProps }) {
                     }
 
                 </div>
-                <a className="left carousel-control" href="" role="button" data-slide="prev">
-                    <i className="fa fa-angle-left"></i>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="right carousel-control" href="" role="button" data-slide="next">
-                    <i className="fa fa-angle-right"></i>
-                    <span className="sr-only">Next</span>
-                </a>
+                
 
-                <ul className="carousel-indicators list-inline custom-navigation">
-                    <li data-target="#" data-slide-to="0"></li>
-                    <li data-target="#" data-slide-to="1"></li>
-                    <li data-target="#" data-slide-to="2"></li>
-                    <li data-target="#" data-slide-to="3"></li>
-                    <li data-target="#" data-slide-to="4"></li>
-                    <li data-target="#" data-slide-to="5"></li>
-                </ul>
+                
             </div>
         </>
     )
