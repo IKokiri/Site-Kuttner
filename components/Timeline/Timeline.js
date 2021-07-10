@@ -10,7 +10,7 @@ function Timeline({ Component, pageProps }) {
                     <div className="our-blog padding-right">
                         <div className="news-block-two">
                             <div className="inner-box">
-                                <div className="image-box"><a href="blog-single.html"><img src="imgs/historia/kdbhistoria1.webp" alt="" /></a></div>
+                                <div className="image-box"><a href="javascript:void(0)"><img src="imgs/historia/kdbhistoria1.webp" alt="" /></a></div>
                                 <div className="lower-content clearfix">
                                     <div className="info">
                                         <ul>
@@ -35,11 +35,11 @@ function Timeline({ Component, pageProps }) {
                     <div className="our-blog padding-right">
                         <div className="news-block-two">
                             <div className="inner-box">
-                                <div className="image-box"><a href="blog-single.html"><img src="imgs/historia/knbshistoria1.webp" alt="" /></a></div>
+                                <div className="image-box"><a href="javascript:void(0)"><img src="imgs/historia/knbshistoria1.webp" alt="" /></a></div>
                                 <div className="lower-content clearfix">
                                     <div className="info">
                                         <ul>
-                                            <li><h2><i className="fa fa-clock-o"></i>Julho, 2007</h2></li>
+                                            <li><h2><i className="fa fa-clock-o"></i>Julho, 2017</h2></li>
                                         </ul>
                                     </div>
                                     <div className="text">

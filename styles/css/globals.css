@@ -7009,7 +7009,7 @@ img {
     width: 100%;
 }
 
-.news-block-two .image-box a:before {
+    /* .news-block-two .image-box a:before {
     position: absolute;
     display: inline-block;
     left: 0;
@@ -7034,7 +7034,7 @@ img {
     -webkit-transform-origin: bottom center;
     -ms-transform-origin: bottom center;
     transform-origin: bottom center;
-}
+} */
 
 .news-block-two .inner-box:hover .image-box a:before {
     -webkit-transform: scale(1, 1);
