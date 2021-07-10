@@ -2,7 +2,7 @@ import { banner } from './api'
 function Banner({ Component, pageProps }) {
     return (
         <>
-            <div id="minimal-bootstrap-carousel" className="carousel slide carousel-fade slider-home-one" data-ride="carousel">
+            <section id="minimal-bootstrap-carousel" className="carousel slide carousel-fade slider-home-one" data-ride="carousel">
                 <div className="carousel-inner" role="listbox">
                     {
                         banner.map((ban) => {
@@ -24,10 +24,10 @@ function Banner({ Component, pageProps }) {
                     }
 
                 </div>
-                
 
-                
-            </div>
+
+
+            </section>
         </>
     )
 }
