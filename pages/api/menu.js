@@ -39,11 +39,6 @@ export const menu = [
                 "local": "/docs/iso/iso.pdf",
                 "classe": "sublink"
             },
-            {
-                "titulo": "Gestão",
-                "local": "/gestao",
-                "classe": "sublink"
-            },
         ]
 
     },
