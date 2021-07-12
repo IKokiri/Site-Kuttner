@@ -40,9 +40,7 @@ function Timeline({ Component, pageProps }) {
                             hist
                         }
                         {
-
                             fundo
-
                         }
                     </div>
                 })
