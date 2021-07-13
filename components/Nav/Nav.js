@@ -27,7 +27,7 @@ function Nav({ Component, pageProps }) {
                                                     {
                                                         link.submenu != undefined ? (link.submenu.map((sub) => {
                                                             return <li key={sub.titulo} className="sublink">
-                                                                <Link href={sub.local}>{sub.titulo}</Link>
+                                                                <Link href={sub.local} target={'_blank'} >{sub.titulo}</Link>
                                                             </li>
                                                         })) : null
                                                     }

@@ -12,32 +12,38 @@ export const menu = [
             {
                 "titulo": "História",
                 "local": "/historia",
-                "classe": "sublink"
+                "classe": "sublink",
+                "target":false
             },
             {
                 "titulo": "Grupo Kuttner",
                 "local": "/grupokuttner",
-                "classe": "sublink"
+                "classe": "sublink",
+                "target":false
             },
             {
                 "titulo": "Kuttner no Mundo",
                 "local": "/kuttnermundo",
-                "classe": "sublink"
+                "classe": "sublink",
+                "target":false
             },
             {
                 "titulo": "Kuttner Alemanha",
                 "local": "/kuttneralemanha",
-                "classe": "sublink"
+                "classe": "sublink",
+                "target":false
             },
             {
                 "titulo": "Kuttner do Brasil",
                 "local": "/kuttnerbrasil",
-                "classe": "sublink"
+                "classe": "sublink",
+                "target":false
             },
             {
                 "titulo": "Certificado",
                 "local": "/docs/iso/iso.pdf",
-                "classe": "sublink"
+                "classe": "sublink",
+                "target":true
             },
         ]
 
