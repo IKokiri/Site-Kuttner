@@ -6,10 +6,11 @@ function KuttnerAlemanha({ Component, pageProps }) {
         height="450"
         style={{border:0}}
         loading="lazy"
-        zoom="5"
         allowfullscreen
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDXSUsCy9jIv_Ehi0GR4sppGQOGdOjZgAY&q=Germany&zoom=6">
+        src="https://www.google.com/maps/d/embed?mid=1t2BFrCIDRBbTsuDj-tBj3UXqHU2ZKaQL&z=7">
+      
       </iframe>
+      {/* // src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDXSUsCy9jIv_Ehi0GR4sppGQOGdOjZgAY&q=Germany&zoom=6"> */}
     </>
   )
 }
