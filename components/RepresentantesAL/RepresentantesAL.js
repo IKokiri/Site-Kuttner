@@ -30,13 +30,13 @@ function RepresentantesAL({ Component, pageProps }) {
                                   </li>
                                   <li>
                                     <span className="icon flaticon-place"></span>
-                                    <h5>Rua Álvaro Rodrigues, 182, sl 95/96</h5>
-                                    <p>São Paulo - SP</p>
+                                    <h5>{r.endereco}</h5>
+                                    <p>{r.complemento}</p>
                                   </li>
                                   <li>
                                     <span className="icon flaticon-plane"></span>
                                     <h5>E-Mail</h5>
-                                    <p><a href="#">renato.pierri@cerp.com.br</a></p>
+                                    <p><a href="#">{r.email}</a></p>
                                   </li>
                                 </ul>
                               </div>

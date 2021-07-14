@@ -1,4 +1,14 @@
 export const representantesAL = [
+  
+    {
+        "empresa": "Bramund",
+        "nome": "Alexandre Bortolini",
+        "telefone": "+52 1 81 1385 1908",
+        "telefone2": ' ',
+        "endereco": "Carretera Federal 57, El Marqués, Lateral Norte Km 201+100, Nave",
+        "complemento": "Querétaro, México",
+        "email": "alexandre@bramund.com",
+    },
     {
         "empresa": "Proteco Ltda",
         "nome": "Herbert Ramdohr",
@@ -9,20 +19,11 @@ export const representantesAL = [
         "email": "info@proteco.cl",
     },
     {
-        "empresa": "Bramund",
-        "nome": "Alexandre Bortolini",
-        "telefone": "+52 1 81 1385 1908",
-        "telefone2": ".",
-        "endereco": "Carretera Federal 57, El Marqués, Lateral Norte Km 201+100, Nave",
-        "complemento": "Querétaro, México",
-        "email": "alexandre@bramund.com",
-    },
-    {
         "empresa": "C&T Representações",
         "nome": "Sr. Carlos Calderon",
         "telefone": "+51 1 719 7542",
         "telefone2": "+51 98900 2397",
-        "endereco": ".",
+        "endereco": ' ',
         "complemento": "Peru",
         "email": "carlos_c@cytrep.com",
     },
