@@ -1,5 +1,20 @@
 export const nossaEquipe = [
     {
+        "nome": "Jörg E. Hagedorn",
+        "cargo": "Sócio-Diretor / Managing Partner - CEO",
+        "email": "kuttner@kuttner.com.br"
+    },
+    {
+        "nome": "Wilbert Stoy",
+        "cargo": "Sócio-Diretor / Managing Partner - CTO",
+        "email": "kuttner@kuttner.com.br"
+    },
+    {
+        "nome": "Joaquim Luiz Monteiro de Barros",
+        "cargo": "Sócio-Diretor / Managing Partner - CBDO",
+        "email": "kuttner@kuttner.com.br"
+    }, 
+    {
         "cargo": "Gerente de Núcleo de Fundição e Serviços",
         "nome": "Hilário Gonçalves de Araújo",
         "email": "fundicao@kuttner.com.br",
