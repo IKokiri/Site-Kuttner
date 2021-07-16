@@ -17,13 +17,13 @@ function Tecnologias({ Component, pageProps }) {
                 </ul>
               </div>
             </div>
-            {
+            {              
               tecnologias.map((t) => {
-                return <div className="project-block-one mix all power col-md-6 col-sm-6 col-xs-12">
+                return <div className={`project-block-one mix all power ${t.grid}`}>
                   <div className="image-box">
                     <a href={t.arquivo} target="_blank">
-                      <img src={t.imagem} alt="" style={{cursor:"pointer"}} />
-                      </a>
+                      <img src={t.imagem} alt="" style={{ cursor: "pointer" }} />
+                    </a>
                     <div className="overlay-box">
                     </div>
                   </div>

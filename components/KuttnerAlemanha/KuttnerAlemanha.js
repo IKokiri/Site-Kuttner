@@ -3,7 +3,7 @@ function KuttnerAlemanha({ Component, pageProps }) {
     <>
       <iframe
         width="100%"
-        height="450"
+        height="900"
         style={{border:0}}
         loading="lazy"
         allowfullscreen

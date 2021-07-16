@@ -12,7 +12,7 @@ function NossaEquipe({ Component, pageProps }) {
             <div className="row clearfix">
               {
                 nossaEquipe.map((n) => {
-                  return <div key={n.email} className="team-block col-md-6 col-sm-6 col-xs-12">
+                  return <div key={n.email} className={`team-block ${n.grid}`}>
                     <div className="inner-box">
                       <div className="lower-content">
                         <div className="email"><a href="#"><span className="flaticon-email-1"></span></a></div>
