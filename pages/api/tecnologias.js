@@ -24,22 +24,17 @@ export const tecnologias = [
         "titulo":"",
         "imagem":"",
         "arquivo":"",
-        "link":null,
-        "grid":'row col',
-    },
-    {
-        "titulo":"",
-        "imagem":"",
-        "arquivo":"",
-        "link":null,
-        "grid":'col',
+        "link":"",
+        "grid":'col-md-4 col-sm-4 col-xs-12',
+
     },
     {
         "titulo":"No-Bake",
         "imagem":"imgs/tecnologia/nobake.png",
         "arquivo":"http://www.kuttner-nbs.com.br/produtos",
         "link":"http://www.kuttner-nbs.com.br/produtos",
-        "grid":'col-md-2 col-sm-2 col-xs-12 pull-right',
+        "grid":'col-md-4 col-sm-4 col-xs-12',
+
     } 
 ]
 

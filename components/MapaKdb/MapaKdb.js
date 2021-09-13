@@ -1,16 +1,17 @@
 function MapaKdb({ Component, pageProps }) {
   return (
     <>
-      <style jsx>
-        .overlay {
-          position: relative;
-        width: 100%;
-        height: 450px;
-        top: 450px;
-        margin-top: -450px;
-        z-index: 1;
-}
-
+      <style jsx>{
+`.overlay {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  top: 450px;
+  margin-top: -450px;
+  z-index: 1;
+  }`
+      }
+        
       </style>
       <div class="overlay" onclick="style.pointerEvents='none'">
         <iframe
