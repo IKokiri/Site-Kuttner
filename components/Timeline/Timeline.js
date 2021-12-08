@@ -11,7 +11,7 @@ function Timeline({ Component, pageProps }) {
                     let tam = historia.length;
 
                     let hist = <section class="container">
-                        <div className="content-side col-md-12 col-sm-12 col-xs-12">
+                        <div className="col-md-6 col-sm-12 col-xs-12">
                             <div className="our-blog padding-right">
                                 <div className="news-block-two">
                                     <div className="inner-box">
