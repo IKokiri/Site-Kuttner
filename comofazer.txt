@@ -27,57 +27,49 @@ xx automação
 xxxxxx tecnologias catálogo preto receber HG por email, ja mandou para JL tbm -> trocar pelo catálogo geral
 
 xxxxx corrigit nossa equipe com atuais cargos.
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+-------------------------------------FEITO FEITO--------------------------------------------------------------------
+
+XXXXXX CONFORME PAGINA INICIAL ALINHAR EM GRUPO KUTTNER ACIMA DO ORGANOGRAMA - http://localhost:3001/grupokuttner
 
 
-CONFORME PAGINA INICIAL ALINHAR EM GRUPO KUTTNER AXIMA DO ORGANOGRAMA
+XXXXXX ORDEM ITEM 
+XXXXXX KUTTNERBRASIL
+XXXXXX historia
+XXXXXX KUTTNER ALEMANHA
+
+XXXXXX fabrica@kuttner.com.br no local do email do denio - http://localhost:3001/contato
 
 
-ORDEM ITEM 
+XXXXXX remover foto banner com "KUTTNER ESCRITO"
 
-KUTTNERBRASIL
-historia
-KUTTNER ALEMANHA
-GRUPO KUTTNER {
-
-    AQUIE TERA
-
-    FOTO TEXTO LADO DIRETIRO
-
-    ORGANOGRAMA
-}
-
-em contato
-fabrica@kuttner.com.br no local do email do denio
+XXXXXX acima da do nome 
+XXXXXX gebe paraná e santacatarina - fundição
+XXXXXX cerpe são paulo - fundição
+XXXXXX paulo furtado - Pará
+XXXXXX ETR- rio de janeiro siderurgia
 
 
-remover foto banner com "KUTTNER ESCRITO"
-
-ADICIOANR TEXTO DO LADO DIREITO
-acimada do ome 
-
-
-gebe paraná e santacatarina - fundição
-cerpe são paulo - fundição
-paulo furtado - Pará
-ETR- rio de janeiro siderurgia
-
-
-méxico - fundição
-peru - geral
-chile - gerail
+XXXXXX méxico - fundição
+XXXXXX peru - geral
+XXXXXX chile - geral
 
 
 _____________________________________________________________________________________
 
-1- ok
-2 -  SHAFT FURNACE TECHNOLOGY OXYCUP®
-3 -  Drying and Grinding plants and PCI
-4 - ok
-5 - REMOVER
-6 - A IMPORTÂNCIA DA ENGENHARIA BÁSICA PARA DEFINIÇÃO CORRETA DO CAPEX E OBTENÇÃO DE UM OPEX EFICIENTE
-7 - remover
-8- ok
-
-Penútimo - TURBINA DE RECUPERAÇÃO DE GÁS DE TOPO - TRT
-ultimo RECUPERAÇÃO DO CALOR DOS GASES DE EXAUSTÃO DOS
-REGENERADORES DO ALTO FORNO
+XXXXXX 1- ok
+XXXXXX 2 -  SHAFT FURNACE TECHNOLOGY OXYCUP
+XXXXXX 3 -  Drying and Grinding plants and PCI
+XXXXXX 4 - ok
+XXXXXX 5 - REMOVER
+XXXXXX 6 - A IMPORTÂNCIA DA ENGENHARIA BÁSICA PARA DEFINIÇÃO CORRETA DO CAPEX E OBTENÇÃO DE UM OPEX EFICIENTE
+XXXXXX 7 - remover
+XXXXXX 8- ok
+XXXXXX 
+XXXXXX Penútimo - TURBINA DE RECUPERAÇÃO DE GÁS DE TOPO - TRT
+XXXXXX ultimo RECUPERAÇÃO DO CALOR DOS GASES DE EXAUSTÃO DOS
+XXXXXX REGENERADORES DO ALTO FORNO

@@ -8866,7 +8866,7 @@ img {
 .contact-form.style-three .form-group select {
     background-color: transparent;
     border: 0;
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid #0894d5;
     height: 35px;
     font-size: 16px;
     color: #848484;
@@ -8887,7 +8887,7 @@ img {
 .contact-form.style-three .form-group.border-left {
     position: relative;
     padding-left: 30px;
-    border-left: 1px solid #f2f2f2;
+    border-left: 1px solid #0894d5;
 }
 
 .ui-state-active,

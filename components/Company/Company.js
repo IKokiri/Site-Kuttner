@@ -1,7 +1,5 @@
-import { company } from "../../pages/api/company"
-
-function Company({ Component, pageProps }) {
-
+function Company({ Component, ...pageProps }) {
+    const company = pageProps.companies
     return (
         <>
             {

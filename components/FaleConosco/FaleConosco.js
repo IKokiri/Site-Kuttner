@@ -1,6 +1,11 @@
 function FaleConosco({ Component, pageProps }) {
   return (
-    <>
+    <><style jsx>{`
+    label{
+      color: #000 !important
+    }
+    `}
+    </style>
       <section className="container">
         <div className="form-column col-md-12 col-sm-12 col-xs-12">
           <div className="inner-column">
@@ -32,6 +37,12 @@ function FaleConosco({ Component, pageProps }) {
                         <div className="form-group">
                           <label>Função</label>
                           <input type="text" name="subject" placeholder="Sua Função" required />
+                        </div>
+                      </div>
+                      <div className="left-column col-md-6 col-sm-6 col-xs-12">
+                        <div className="form-group">
+                          <br/>
+                          <br/>
                         </div>
                       </div>
                       <div className="column col-md-6 col-sm-6 col-xs-12">

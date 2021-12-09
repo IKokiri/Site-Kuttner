@@ -6,6 +6,7 @@ export const empresas = [
         "complemento": "Cinco - Contagem, MG.",
         "telefone": "+55 31 3399-7200",
         "email": "kuttner@kuttner.com.br",
+        "site": "https://kuttner@kuttner.com.br",
     },
     {
         "imagem": "imgs/empresa/knbs.jpg",
@@ -14,6 +15,7 @@ export const empresas = [
         "complemento": "Piracicaba, SP",
         "telefone": "+55 19 3302-4770",
         "email": "info@kuttner-nbs.com.br",
+        "site": "http://kuttner-nbs.com.br",
     },
 ]
 

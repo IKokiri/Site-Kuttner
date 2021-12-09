@@ -52,7 +52,6 @@ function Catalogos({ Component, pageProps }) {
             {
               catalogos.map((c, i) => {
                 tag = ''
-
                 let cat = <div className="project-block-one mix all power col-md-4 col-sm-6 col-xs-12">
                   <div className="image-box">
                     <a href={c.arquivo} target="_blank" className="lightbox-image" data-fancybox="Gallery">
@@ -62,7 +61,7 @@ function Catalogos({ Component, pageProps }) {
                     </div>
                   </div>
                   <div className="content-box">
-                    <h4><span>{c.titulo.length > 25 ? c.titulo.substr(0, 25) + "..." : c.titulo}</span><br /></h4>
+                    <h4><span>{c.titulo}</span><br /></h4>
                     <span className="tag">{c.tag}</span>
                   </div>
                 </div>

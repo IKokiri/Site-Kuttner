@@ -29,7 +29,7 @@ function Trabalhos({ Component, pageProps }) {
                       </div>
                     </div>
                     <div className="content-box">
-                      <h4 style={{ height: "60px" }}><span>{t.titulo.toUpperCase()}</span></h4>
+                      <h4 style={{ height: "60px", textAlign: "center" }}><span>{t.titulo.toUpperCase()}</span></h4>
                     </div>
                   </div>
                 })

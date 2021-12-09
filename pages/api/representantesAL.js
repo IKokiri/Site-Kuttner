@@ -1,6 +1,8 @@
 export const representantesAL = [
   
     {
+        "local": "México",
+        "campo": "Fundição",
         "empresa": "Bramund",
         "nome": "Alexandre Bortolini",
         "telefone": "+52 1 81 1385 1908",
@@ -10,6 +12,8 @@ export const representantesAL = [
         "email": "alexandre@bramund.com",
     },
     {
+        "local": "Peru",
+        "campo": "Geral",
         "empresa": "Proteco Ltda",
         "nome": "Herbert Ramdohr",
         "telefone": "+56 (2) 222 4526",
@@ -19,6 +23,8 @@ export const representantesAL = [
         "email": "info@proteco.cl",
     },
     {
+        "local": "Chile",
+        "campo": "Geral",
         "empresa": "C&T Representações",
         "nome": "Sr. Carlos Calderon",
         "telefone": "+51 1 719 7542",

@@ -5,12 +5,12 @@ export const trabalhos = [
         "arquivo":"docs/tecnicos/limpeza gases.pdf",
     },
     {
-        "titulo":"UTILIZATION OF BY-PRODUCTS BY KÜTTNER’S",
+        "titulo":"SHAFT FURNACE TECHNOLOGY OXYCUP",
         "imagem":"imgs/tecnicos/tecnico.png",
         "arquivo":"docs/tecnicos/OxyCup ByProduct operation.pdf",
     },
     {
-        "titulo":"Drying and Grinding plants",
+        "titulo":"Drying and Grinding plants and PCI",
         "imagem":"imgs/tecnicos/tecnico.png",
         "arquivo":"docs/tecnicos/PCI FR 072016.pdf",
     },
@@ -19,21 +19,21 @@ export const trabalhos = [
         "imagem":"imgs/tecnicos/tecnico.png",
         "arquivo":"docs/tecnicos/Recuperação de Calor na Sinterização.pdf",
     },
+    // {
+    //     "titulo":"ROTEIRO ORIENTATIVO",
+    //     "imagem":"imgs/tecnicos/tecnico.png",
+    //     "arquivo":"docs/tecnicos/Roteiro - Estudo Básico Sistema de Recuperação de Calor.pdf",
+    // },
     {
-        "titulo":"ROTEIRO ORIENTATIVO",
-        "imagem":"imgs/tecnicos/tecnico.png",
-        "arquivo":"docs/tecnicos/Roteiro - Estudo Básico Sistema de Recuperação de Calor.pdf",
-    },
-    {
-        "titulo":"1º Simpósio Sobre Competitividade na Fundição",
+        "titulo":"A IMPORTÂNCIA DA ENGENHARIA BÁSICA PARA DEFINIÇÃO CORRETA DO CAPEX E OBTENÇÃO DE UM OPEX EFICIENTE",
         "imagem":"imgs/tecnicos/tecnico.png",
         "arquivo":"docs/tecnicos/simposio fundição.pdf",
     },
-    {
-        "titulo":"SISTEMA DE LIMPEZA DE GASES COM FILTRO DE MANGAS HORIZONTAIS",
-        "imagem":"imgs/tecnicos/tecnico.png",
-        "arquivo":"docs/tecnicos/Sistema de Limpeza de Gases com Filtro de Mangas Horizontais JL.pdf",
-    },
+    // {
+    //     "titulo":"SISTEMA DE LIMPEZA DE GASES COM FILTRO DE MANGAS HORIZONTAIS",
+    //     "imagem":"imgs/tecnicos/tecnico.png",
+    //     "arquivo":"docs/tecnicos/Sistema de Limpeza de Gases com Filtro de Mangas Horizontais JL.pdf",
+    // },
     {
         "titulo":"SISTEMA DE LIMPEZA DE GASES COM FILTRO DE MANGAS HORIZONTAIS",
         "imagem":"imgs/tecnicos/tecnico.png",
@@ -65,12 +65,12 @@ export const trabalhos = [
         "arquivo":"docs/tecnicos/Trabalho Técnico - Sistema de Limpeza de Gases.pdf",
     },
     {
-        "titulo":"TURBINA DE RECUPERAÇÃO DE GÁS DE TOPO",
+        "titulo":"TURBINA DE RECUPERAÇÃO DE GÁS DE TOPO - TRT",
         "imagem":"imgs/tecnicos/tecnico.png",
         "arquivo":"docs/tecnicos/Turbina de Recuperação de Gás de Topo - TRT.pdf",
     },
     {
-        "titulo":"AUMENTO DA EFICIÊNCIA ENERGÉTICA",
+        "titulo":"RECUPERAÇÃO DO CALOR DOS GASES DE EXAUSTÃO DOS REGENERADORES DO ALTO FORNO",
         "imagem":"imgs/tecnicos/tecnico.png",
         "arquivo":"docs/tecnicos/WHRS Energia - ABM WEEK 2015.pdf",
     }

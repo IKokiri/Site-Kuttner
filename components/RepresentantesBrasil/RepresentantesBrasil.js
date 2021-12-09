@@ -20,7 +20,8 @@ function RepresentantesBrasil({ Component, pageProps }) {
                           {
                             representantesBrasil.map((r) => {
                               return <div className="info-column col-md-6 col-sm-12 col-xs-12">
-                                <div className="lucation">{r.empresa}</div>
+                                <div className="lucation">{r.local}{(r.campo)?' - ':''}{r.campo}</div>
+                                <h4>{r.empresa}</h4>
                                 <ul>
                                   <li>
                                     <span className="icon flaticon-support"></span>
@@ -39,6 +40,8 @@ function RepresentantesBrasil({ Component, pageProps }) {
                                     <p><a href="#">{r.email}</a></p>
                                   </li>
                                 </ul>
+                                <br/>
+                                <br/>
                               </div>
                             })
                           }

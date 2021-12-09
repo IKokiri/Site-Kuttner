@@ -12,13 +12,13 @@ function Empresas({ Component, pageProps }) {
                 <div className="branch-info-box">
                   <div className="image-box">
                     <div className="image">
-                      <a href="#"><img src={e.imagem} alt="" /></a>
+                      <a href={e.site} target='_blank'><img src={e.imagem} alt=""  /></a>
                     </div>
                   </div>
                   <div className="lower-content">
                     <ul>
                       <li className="lilogo">
-                        <img src={e.logo} alt="" />
+                      <a href={e.site} target='_blank'> <img src={e.logo} alt="" /></a>
                       </li>
                       <li>
                         <span className="icon flaticon-place"></span>

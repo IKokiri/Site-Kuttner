@@ -50,7 +50,7 @@ export const nossaEquipe = [
     {
         "cargo": "Gerência de Fabricação e Serviços externos",
         "nome": "Dênio Oliveira",
-        "email": "d.oliveira@kuttner.com.br",
+        "email": "fabrica@kuttner.com.br",
         "grid": "col-md-6 col-sm-6 col-xs-12",
     },
 ]

@@ -10,8 +10,20 @@ export const menu = [
         "classe": "dropdown menutopo",
         "submenu": [
             {
+                "titulo": "Kuttner do Brasil",
+                "local": "/kuttnerbrasil",
+                "classe": "sublink",
+                "target":false
+            },
+            {
                 "titulo": "História",
                 "local": "/historia",
+                "classe": "sublink",
+                "target":false
+            },
+            {
+                "titulo": "Kuttner Alemanha",
+                "local": "/kuttneralemanha",
                 "classe": "sublink",
                 "target":false
             },
@@ -24,18 +36,6 @@ export const menu = [
             {
                 "titulo": "Kuttner no Mundo",
                 "local": "/kuttnermundo",
-                "classe": "sublink",
-                "target":false
-            },
-            {
-                "titulo": "Kuttner Alemanha",
-                "local": "/kuttneralemanha",
-                "classe": "sublink",
-                "target":false
-            },
-            {
-                "titulo": "Kuttner do Brasil",
-                "local": "/kuttnerbrasil",
                 "classe": "sublink",
                 "target":false
             },

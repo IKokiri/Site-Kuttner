@@ -2,7 +2,7 @@ export const historia = [
     {
         "data": 'Maio, 1974',
         "texto": "O Grupo Küttner Alemanha se estabelece no Brasil com uma filial em Belo Horizonte para atender a crescente demanda do mercado brasileiro de indústria siderúrgica, fundição e mineração",
-        "imagem": "imgs/historia/kdbhistoria1.webp"
+        "imagem": "imgs/historia/primeirafotokuttner.png"
     },  
     {
         "data": 'Julho, 2017',
